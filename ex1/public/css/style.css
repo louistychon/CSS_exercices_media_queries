@@ -1,0 +1,14 @@
+/*## - Pour des écrans plus grands que 1024px la couleur de fond du body est rouge*/
+
+@media screen and (min-width: 1024px) {
+    body{background-color: red;}}
+
+/*## - Pour des écrans entre 600px et 1024px la couleur de fond du body est blue*/
+
+@media screen and (min-width: 600px) and (max-width:1024px) {
+    body{background-color: blue;}}
+
+/*    ## - Pour des écrans ntre 320px et 600px la couleur de fond du body est verte*/
+
+@media screen and (min-width: 320px) and (max-width:600px) {
+    body{background-color: green;}}
